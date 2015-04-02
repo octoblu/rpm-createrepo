@@ -4,7 +4,7 @@ RUN apt-get update
 
 RUN apt-get install -y createrepo
 RUN apt-get install -y python-pip
-RUN apt-get install -y groff
+RUN apt-get install -y groff-base
 
 RUN pip install awscli
 
